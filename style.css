@@ -12,6 +12,6 @@ body{
     line-height: 1.6;
 }
 
-img{
+.hero .main-text img{
     max-width: 35%;
 }

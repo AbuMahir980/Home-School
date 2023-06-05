@@ -25,3 +25,11 @@ body{
     margin: 0 auto;
     padding: 0 30px;
 }
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}

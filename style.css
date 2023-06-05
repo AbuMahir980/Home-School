@@ -12,6 +12,11 @@ body{
     line-height: 1.6;
 }
 
-.hero .main-text img{
+.hero img{
     max-width: 35%;
+}
+
+.box img{
+    max-width: 20%;
+
 }

@@ -108,7 +108,7 @@ ul{
 }
 
 .sectionA{
-    background-color: #005e74;
+    background-color: #00BCD4;
 }
 .sectionA .container{
     display: flex;
@@ -133,7 +133,7 @@ ul{
 .sectionA .container h2{
     font-size: 36px;
     font-weight: bolder;
-    color: #FFC107;
+    color: #1a1e3b;
 }
 
 .sectionA .boxes .box p{
@@ -141,7 +141,16 @@ ul{
     font-size: 16px;
     text-align: center;
     padding-top: 10px;
+    color: #FFC107;
+}
+.sectionA .boxes .box .tag{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0B0F2B;
 }
 .sectionA .boxes .box .width{
     width: 230px;
+    background-color: #0B0F2B;
+    border-radius: 10px;
+    padding: 10px;
 }

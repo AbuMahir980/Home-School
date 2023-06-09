@@ -110,3 +110,13 @@ ul{
     font-weight: 700;
 }
 
+.sectionA{
+    background-color: #005e74;
+}
+.sectionA .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+}
+

@@ -29,7 +29,10 @@ body{
 ul{
     list-style-type: none;
 }
-
+.navbar{
+    position: sticky;
+    top: 0;
+}
 .navbar a{
     text-decoration: none;
     color: #FFFFFF;
@@ -59,4 +62,15 @@ ul{
 
 .navbar ul li{
     margin-left: 20px;
+}
+
+.hero{
+    background-color: #0B0F2B;
+    color: #FFFFFF;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
 }

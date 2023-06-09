@@ -100,5 +100,13 @@ ul{
     background-color: #FFC107;
     padding: 10px 30px;
     border-radius: 10px;
+    border-color: #FFFFFF;
+}
+
+.hero .main-text button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
 }
 

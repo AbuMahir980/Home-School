@@ -115,20 +115,33 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
-    gap: 10px;
+    min-height: 450px;
+    gap: 30px;
 }
 .sectionA .container .boxes{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .sectionA .boxes img{
-    max-width: 200px;
-    max-height: 200px;
+    width: 230px;
+    height: auto;
     border-radius: 10px;
+    border: 2px solid #FFC107;
+}
+
+.sectionA .container h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #FFC107;
 }
 
 .sectionA .boxes .box p{
-    width: 200px;
+    width: 230px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+.sectionA .boxes .box .width{
+    width: 230px;
 }

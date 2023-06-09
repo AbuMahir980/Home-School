@@ -13,7 +13,9 @@ body{
 }
 
 .hero img{
-    max-width: 35%;
+    max-width: 40%;
+    border-radius: 10px;
+    border: 2px solid #FFC107;
 }
 
 .box img{
@@ -53,7 +55,7 @@ ul{
 .logo{
     font-size: 24px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #FFC107;
 }
 
 .navbar ul{
@@ -91,4 +93,12 @@ ul{
     font-size: 18px;
     width: 500px;
     margin-bottom: 20px;
+    line-height: 1.9;
 }
+
+.hero .main-text button{
+    background-color: #FFC107;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+

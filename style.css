@@ -128,3 +128,7 @@ ul{
     max-height: 200px;
     border-radius: 10px;
 }
+
+.sectionA .boxes .box p{
+    width: 200px;
+}

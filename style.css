@@ -73,9 +73,16 @@ ul{
     justify-content: space-between;
     align-items: center;
     min-height: 500px;
+    gap: 70px;
 }
 
 .hero .main-text{
     flex-wrap: wrap;
-    flex-basis: 50%;
+}
+
+.hero .main-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    width: 400px;
+    margin-bottom: 20px;
 }

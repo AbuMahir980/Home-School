@@ -72,5 +72,10 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
+    min-height: 500px;
+}
+
+.hero .main-text{
+    flex-wrap: wrap;
+    flex-basis: 50%;
 }

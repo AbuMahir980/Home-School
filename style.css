@@ -115,8 +115,11 @@ ul{
 }
 .sectionA .container{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     min-height: 400px;
+    text-align: center;
 }
+
 

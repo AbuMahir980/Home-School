@@ -33,6 +33,8 @@ ul{
 .navbar a{
     text-decoration: none;
     color: #FFFFFF;
+    font-size: 18px;
+    font-weight: normal;
 }
 .navbar{
     position: sticky;

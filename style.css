@@ -38,6 +38,10 @@ ul{
     font-size: 18px;
     font-weight: normal;
 }
+
+.navbar a:hover{
+    color: #FFC107;
+}
 .navbar{
     position: sticky;
     height: 60px;
@@ -165,9 +169,49 @@ ul{
     padding: 24.5px;
 }
 
+.sectionB{
+    background-color: #FFC107;
+    color: #1a1e3b;
+}
 .sectionB .container{
     display: flex;
-    min-height: 300px;
+    min-height: 600px;
     justify-content: center;
     align-items: center;
+}
+
+.sectionB h3{
+    max-width: 800px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.sectionC{
+    min-height: 300px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+.sectionC .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1e3b;
+    max-width: 800px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.sectionC .container button {
+    background-color: #FFC107;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+}
+
+.sectionC .container .calltoaction{
+    color:#FFFFFF;
 }

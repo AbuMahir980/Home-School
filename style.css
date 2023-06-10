@@ -215,3 +215,17 @@ ul{
 .sectionC .container .calltoaction{
     color:#FFFFFF;
 }
+
+.footer{
+    background-color: #333554;
+    color: #FFFFFF;
+    height: 50px;
+}
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}

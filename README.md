@@ -1,2 +1,3 @@
 # Home-School
-A dummy website for Home-Schoolers
+A dummy landing page for Home-Schoolers
+Serves as a task to practice the knowledge of flexbox

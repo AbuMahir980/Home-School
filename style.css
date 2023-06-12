@@ -13,10 +13,10 @@ body{
 }
 
 .hero img{
-    max-width: 40%;
+    min-width: 20%;
     border-radius: 10px;
     border: 2px solid #FFC107;
-    flex: 1;
+    flex: 3 0 0;
 }
 
 
@@ -92,6 +92,7 @@ ul{
     font-weight: bolder;
     width: 400px;
     margin-bottom: 20px;
+    flex: 1;
 }
 
 .hero .main-text p{
@@ -126,10 +127,12 @@ ul{
     align-items: center;
     min-height: 450px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .sectionA .container .boxes{
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .sectionA .boxes img{
@@ -137,6 +140,7 @@ ul{
     height: auto;
     border-radius: 10px;
     border: 2px solid #1a1e3b;
+    flex: 2;
 }
 
 .sectionA .container h2{
